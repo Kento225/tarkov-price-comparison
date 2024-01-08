@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'Bender';
-    src: url('Bender.woff') format('woff2'),
-        url('Bender.woff') format('woff');
+    src: url('assets/Bender-Bold.woff2') format('woff2'),
+        url('assets/Bender-Bold.woff') format('woff');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -9,8 +9,8 @@
 
 @font-face {
     font-family: 'Bender';
-    src: url('Bender-Bold.woff2') format('woff2'),
-        url('Bender-Bold.woff') format('woff');
+    src: url('./assets/Bender-Bold.woff2') format('woff2'),
+        url('./assets/Bender-Bold.woff') format('woff');
     font-weight: bold;
     font-style: normal;
     font-display: swap;
@@ -23,7 +23,7 @@ h1{
 
 body{
     font-family: 'Bender', sans-serif;
-    background-image:url(./assets/1127947372_EscapeFromTarkovScreenshot2022_04.23-13_44_57_73.png.04f99dc962364420d4c3bf8eaccb2e81.png);
+    background-image:url("./assets/1127947372_EscapeFromTarkovScreenshot2022_04.23-13_44_57_73.png.04f99dc962364420d4c3bf8eaccb2e81.png");
     background-size:cover;
     color: white;
     text-shadow: 0px 1px black;
